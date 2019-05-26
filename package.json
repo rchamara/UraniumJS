@@ -1,0 +1,29 @@
+{
+  "name": "uraniumjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.0",
+    "gulp-util": "^3.0.8",
+    "tsify": "^4.0.1",
+    "typescript": "^3.2.2",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ujs": "./lib/cli.js"
+  },
+  "author": "ruwan chamara",
+  "license": "ISC"
+}

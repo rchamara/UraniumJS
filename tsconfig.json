@@ -1,0 +1,17 @@
+{
+  "files": [
+      "src/lib_modules/routes.ts"
+     // "src/lib_modules/_uraniumview/uraniumview.ts"
+     // "test/homepage/homepageview.ts"
+     // "test/homepage/HomePage.ts"
+  ],
+  "compilerOptions": {
+      "noImplicitAny": true,
+      "target": "es6"
+  },
+  "lib": [
+    "es5",
+    "dom",
+    "es2017"
+  ]
+}

@@ -1,0 +1,26 @@
+.child-first {
+    text-align: center;
+    font-size: 12pt;
+    background-color: #6f36f4;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    height: 300px;
+}
+
+.child-second {
+    text-align: center;
+    font-size: 12pt;
+    background-color: #2eeba2;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    height: 300px;
+}
+
+.child-third {
+    text-align: center;
+    font-size: 12pt;
+    background-color: #a18fc9;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    height: 100px;
+}

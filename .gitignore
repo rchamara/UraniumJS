@@ -1,0 +1,6 @@
+# Uranium JS  2018 Ruwan Chamara
+# ignore files and folder for Uranium JS
+
+controllers/
+node_modules/
+test/

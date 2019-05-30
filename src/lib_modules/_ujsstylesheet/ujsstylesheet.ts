@@ -35,6 +35,7 @@ function getStyleSheetRules(styleSheetrules: any): void {
  * @param styleSheetRule all rules in one single stylesheet page
  */
 function appendStyleIntocssStyleClassJson(styleSheetRule: CSSStyleRule): void { 
-    cssStyleClassJson[styleSheetRule.selectorText.replace('.','')] = styleSheetRule.style;
+
+    if (styleSheetRule.style != undefined) cssStyleClassJson[styleSheetRule.selectorText.replace('.','')] = styleSheetRule.style;
     return;
 }

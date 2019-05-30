@@ -65,7 +65,7 @@ export class Element extends SuperElement implements ElementInterface<string>  {
         /**
          * create new object when user glue user-defined-element to parent
          *  TODO new logic add for set event action to dom
-         * so no need to get event action starded name from array
+         * so no need to get event action start name from array
          * remove array search and add user defined event name
          */
         let eventNamesKeyCollection = Object.keys(eventNamesCollectionObject);
@@ -111,7 +111,7 @@ export class Element extends SuperElement implements ElementInterface<string>  {
     }
 
     /**
-     * TODO what if user change class name after sertain time and change hight from rector method 
+     * TODO what if user change class name after certain time and change hight from rector method 
      */
     /**
      * 

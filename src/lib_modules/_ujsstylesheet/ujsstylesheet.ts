@@ -36,6 +36,6 @@ function getStyleSheetRules(styleSheetrules: any): void {
  */
 function appendStyleIntocssStyleClassJson(styleSheetRule: CSSStyleRule): void { 
 
-    if (styleSheetRule.style != undefined) cssStyleClassJson[styleSheetRule.selectorText.replace('.','')] = styleSheetRule.style;
+    if (styleSheetRule.style != undefined && styleSheetRule.selectorText != undefined) cssStyleClassJson[styleSheetRule.selectorText.replace('.','')] = styleSheetRule.style;
     return;
 }

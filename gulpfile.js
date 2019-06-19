@@ -59,7 +59,7 @@ function readBundleWhenChange () {
  * @param {*} bundleData 
  */
 function writeToNewBundleJs(bundleData) {
-    fs.writeFile('/Users/Chamara/Documents/UraniumJS-v.1/proj/dist/bundle_t.js', bundleData, function(err, bundleData){
+    fs.writeFile('dist/bundle_t.js', bundleData, function(err, bundleData){
         if (err) console.log(err);
         console.log("[INFO:] Successfully by Written to File.");
     });
@@ -1140,7 +1140,7 @@ function splitWithLineBreak(bundleContent) {
 function readBundleJS() {
 
     var bundleContent = null;
-    var bundleJsPath  = '/Users/Chamara/Documents/UraniumJS-v.1/proj/dist/bundle.js';//TODO use config data function
+    var bundleJsPath  = 'dist/bundle.js';//TODO use config data function
     var encodeMethod  = 'utf8'; 
     try {
         bundleContent = fs.readFileSync(bundleJsPath, encodeMethod);

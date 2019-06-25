@@ -20,7 +20,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "./lib/ujsInstall.js"
+    "install": "node lib/ujsInstall.js"
   },
   "bin": {
     "ujs": "./lib/cli.js"

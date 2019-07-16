@@ -54,7 +54,7 @@ export function __recrusiveInjector(userDefinedRenderElement: Element, flagIndex
                     switch(sameNodeStatus(domParentNodeAllChilds[domParentChildIndex], newElement)) {
                                     case 0:
                                         let parser = new DOMParser();
-                                        let nodeCollectionString = __recrusive(userDefinedRenderElement, userDefinedRenderElement.flagIndex, parentRenderElement);
+                                        let nodeCollectionString = __recrusive(newElement, newElement.flagIndex, parentRenderElement);
                                         let node = parser.parseFromString(nodeCollectionString,'text/html');
                                         parentNode.replaceChild(node.body.firstChild,domParentNodeAllChilds[domParentChildIndex]);
                                         addEvent();
@@ -162,7 +162,7 @@ function findHTMLInElementCollection(id: string): any {
 }
 
 /**
- * checke grand child element is same as new child
+ * check grand child element is same as new child
  */
 function sameNodeStatus(oldNode: any, newNode: any): number {
 

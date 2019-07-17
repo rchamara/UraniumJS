@@ -8,14 +8,14 @@
     "test": "test"
   },
   "dependencies": {
-    "browserify": "^16.2.3",
-    "gulp": "^4.0.0",
-    "gulp-typescript": "^5.0.0",
+    "browserify": "^16.3.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
     "gulp-util": "^3.0.8",
     "tsify": "^4.0.1",
-    "typescript": "^3.2.2",
+    "typescript": "^3.5.3",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0"
+    "watchify": "^3.11.1"
   },
   "devDependencies": {},
   "scripts": {

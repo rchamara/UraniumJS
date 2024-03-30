@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "browserify": "^16.3.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-typescript": "^5.0.1",
     "gulp-util": "^3.0.8",
     "tsify": "^4.0.1",

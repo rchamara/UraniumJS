@@ -15,7 +15,7 @@
     "tsify": "^4.0.1",
     "typescript": "^3.5.3",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.1"
+    "watchify": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
